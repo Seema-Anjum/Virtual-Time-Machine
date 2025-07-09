@@ -1,0 +1,22 @@
+body {
+  background: linear-gradient(to bottom, #fff, #e0e0ff);
+  font-family: Verdana, sans-serif;
+  color: #333;
+}
+
+.main-content {
+  box-shadow: 0 0 10px #aaa;
+  padding: 20px;
+  background-color: #ffffff;
+  width: 80%;
+  margin: auto;
+  border-radius: 10px;
+}
+
+button {
+  background-color: #6699ff;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+}

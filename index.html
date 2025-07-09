@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Web Time Machine</title>
+  <link rel="stylesheet" href="styles/base.css" />
+</head>
+<body>
+
+  <!--  Retro Sound -->
+  <audio id="themeSound" src="sounds/sound1.mp3" preload="auto"></audio>
+
+  <!--  Hero Section -->
+  <section class="hero">
+    <h1>🌐 Virtual Time Machine</h1>
+    <p>Relive the golden eras of the internet. Explore how websites looked, felt, and behaved in different eras.</p>
+    <button onclick="scrollToSelector()">Start Time Travel</button>
+  </section>
+  
+  <!-- 🕰️ Timeline Selector -->
+  <section class="year-timeline" id="selector">
+    <h2>🕰️ Select an Era</h2>
+    <div class="year-buttons">
+      <button onclick="applyTheme('1998')">1998</button>
+      <button onclick="applyTheme('2005')">2005</button>
+      <button onclick="applyTheme('2010')">2010</button>
+      <button onclick="applyTheme('2022')">2022</button>
+      <button onclick="randomYear()">🎲 Random</button>
+    </div>
+  </section>
+
+  <!--  Main Content -->
+  <main class="main-content">
+    <h1>Welcome to the Web Time Machine</h1>
+    <p>Experience your website as it looked in different eras. Select a year to see the transformation!</p>
+    <p id="showpopup"></p>
+    <!-- Dropdown Panel -->
+    <div class="control-panel">
+      <label for="year">Select Year:</label>
+      <select id="year">
+        <option value="">-- Choose a Year --</option>
+        <option value="1998">1998</option>
+        <option value="2005">2005</option>
+        <option value="2010">2010</option>
+        <option value="2022">2022</option>
+      </select>
+      <button id="resetBtn">Reset</button>
+    </div>
+
+    <!-- Sample Content -->
+    <section class="features">
+      <div class="feature">
+        <h2>Retro Design</h2>
+        <p>Watch your site morph into classic web styles from the past.</p>
+      </div>
+      <div class="feature">
+        <h2>Interactive</h2>
+        <p>Choose a year and interact with the site as it was back then.</p>
+      </div>
+      <div class="feature">
+        <h2>Easy Reset</h2>
+        <p>Return to the present with a single click.</p>
+      </div>
+    </section>
+    <p class="try-it-description">
+      Click "Try It Now!" to randomly select a year and instantly see the website transform to that era's style and feel.
+    </p>
+    <button class="sample-action">Try It Now!</button>
+  </main>
+
+  <!-- 📜 Script -->
+  <script src="script/index.js"></script>
+ 
+</body>
+</html>

@@ -1,0 +1,22 @@
+body {
+  background-color: #fefefe;
+  font-family: 'Times New Roman', serif;
+  color: #000080;
+}
+
+.main-content {
+  border: 3px double #000;
+  padding: 10px;
+  background-color: #ffffcc;
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+
+button {
+  background-color: rgb(248, 245, 150);
+  font-weight: bold;
+  padding: 5px 10px;
+  border: 2px outset #000;
+  border-radius: 6px;
+}
