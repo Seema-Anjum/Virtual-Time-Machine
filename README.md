@@ -51,20 +51,6 @@ web-time-machine/
 
 ---
 
-## 📸 Preview
-
-![Preview Screenshot](preview.png)
-
----
-
-## 🧪 Future Ideas
-
-- 📼 Simulate blinking cursors or CRT scanlines
-- 🕰️ Add more years (e.g. 1995, 2015)
-- 🌍 Live URL tester (apply themes to iframe site)
-
----
-
 ## 📄 License
 
 MIT — feel free to remix, credit appreciated.
